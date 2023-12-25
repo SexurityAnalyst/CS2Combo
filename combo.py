@@ -42,7 +42,7 @@ def get_gloves_options():
     print("exteriorId=5 is Well-Worn")
     print("exteriorId=6 is Battle Scarred")
 
-    exterior_id = int(input("Enter exterior_id (2 for Factory New, 3 for Minimal Wear, etc.): "))
+    exterior_id = int(input("Enter exterior id: "))  # Updated prompt for gloves
 
     return exterior_id
 
